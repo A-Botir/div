@@ -68,15 +68,24 @@ button {
 }
 
 .centre_block{
+    margin-left: 375px;
     width: 600px;
     border-radius: 10px;
 }
 
 .list_item{
+    background: none;
+    color: black;
     .list_item__num{
         border-radius: 50%;
         background-color: blue;
         color: white;
-        padding: 3px;
+        padding: 3px 8px;
+        margin-right: 5px;
     }
+}
+
+.block_title{
+    font-size: 20px;
+    margin-bottom: 15px;
 }
