@@ -75,17 +75,33 @@ button {
 
 .list_item{
     background: none;
+    font-weight: 700;
     color: black;
+    &--op{
+        opacity: 0.5;
+    }
     .list_item__num{
         border-radius: 50%;
         background-color: blue;
         color: white;
         padding: 3px 8px;
         margin-right: 5px;
+        &--op{
+            background-color: grey;
+            color: black;
+        }
     }
+}
+.list_item--op:hover{
+    opacity: 0.8;
 }
 
 .block_title{
+    font-weight: 600;
     font-size: 20px;
     margin-bottom: 15px;
+}
+
+.block_btn{
+    color: black;
 }
